@@ -1,27 +1,24 @@
-# AmandaOS Downloads
+# AmandaOS
 
-Official AmandaOS beta installers for macOS, published by Pear Software Centre.
+Official AmandaOS downloads for macOS, published by Pear Software Centre.
 
-## Downloads
+## AmandaOS Beta 1 — Public Beta
 
-| Release | Installer | Requirements |
-| --- | --- | --- |
-| **Beta 2 — newest beta** | [Release notes and download](https://github.com/pear-software-centre/Amanda-Updates/releases/tag/amandaos-beta-2) | macOS 14 or later; Apple silicon verified |
-| Beta 1 | [Download installer](https://github.com/pear-software-centre/Amanda-Updates/releases/download/amandaos-beta-1/AmandaOS.Beta.1.Installer.pkg) · [Release details](https://github.com/pear-software-centre/Amanda-Updates/releases/tag/amandaos-beta-1) | macOS 15 or later; Apple silicon |
+[**Download Beta 1 Installer**](https://github.com/pear-software-centre/Amanda-Updates/releases/download/amandaos-beta-1/AmandaOS.Beta.1.Installer.pkg) · [Release details](https://github.com/pear-software-centre/Amanda-Updates/releases/tag/amandaos-beta-1)
 
-## Installation
+**Requirements:** Apple silicon Mac running macOS 15 or later.
 
-1. Open the release page and download the `.pkg` file under **Assets**.
-2. Open the downloaded installer and follow its instructions.
+### Installation
+1. Download the `.pkg` installer using the link above.
+2. Open the package and follow the installation instructions.
 
-These are pre-release builds for testing. Read the release notes for compatibility and known limitations. Beta 2 Intel compatibility has not been verified.
+Beta 1 is pre-release software for testing and feedback. Back up important work before installing.
 
-## File verification
+### Verify your download
+Installer SHA-256:
+```text
+6b944985325b86a778c00afe3bb26237fcdbff55ac9c7f01a5b11e61c74393bb
+```
 
-Each release includes the installer’s SHA-256 checksum. GitHub also displays a checksum beside each uploaded asset.
-
-## About this repository
-
-This repository distributes finished installers and release information. AmandaOS source code is maintained separately.
-
-[Browse all releases](https://github.com/pear-software-centre/Amanda-Updates/releases)
+## About
+This repository provides finished installers and release information. AmandaOS source code is maintained separately.
