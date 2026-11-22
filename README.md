@@ -2,9 +2,14 @@
 
 Official AmandaOS downloads for macOS, published by Pear Software Centre.
 
+## Beta feedback
+[**Submit feedback**](https://github.com/pear-software-centre/Amanda-Updates/issues/new?template=beta-feedback.yml) | [Browse reports](https://github.com/pear-software-centre/Amanda-Updates/issues) | [Review process](FEEDBACK.md)
+
+Report bugs, suggest features or share your experience. A GitHub account is required. Reports are public. Feedback is reviewed and implemented only when the owner asks.
+
 ## AmandaOS Beta 1 — Public Beta
 
-[**Download Beta 1 Installer**](https://github.com/pear-software-centre/Amanda-Updates/releases/download/amandaos-beta-1/AmandaOS.Beta.1.Installer.pkg) · [Release details](https://github.com/pear-software-centre/Amanda-Updates/releases/tag/amandaos-beta-1)
+[**Download Beta 1 Installer**](https://github.com/pear-software-centre/Amanda-Updates/releases/download/amandaos-beta-1/AmandaOS.Beta.1.Installer.pkg) | [Release details](https://github.com/pear-software-centre/Amanda-Updates/releases/tag/amandaos-beta-1)
 
 **Requirements:** Apple silicon Mac running macOS 15 or later.
 
