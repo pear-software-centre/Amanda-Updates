@@ -1,0 +1,69 @@
+name: AmandaOS Beta Feedback
+description: Report a bug, suggest a feature, or share beta feedback.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for testing AmandaOS! Reports are public. Remove personal information, passwords, API keys and private content from screenshots or logs. Feedback is reviewed before changes are made."
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Feedback type
+      options:
+        - Bug report
+        - Feature request
+        - General feedback
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AmandaOS version and build
+      placeholder: "Example: Beta 1 (include build number if known)"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Mac model, chip and macOS version
+      placeholder: "Example: MacBook Air, M2, macOS 15.7"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened or what would you like improved?
+      description: Describe the issue or the problem your suggestion would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: For bugs, list the steps, expected result and actual result.
+      placeholder: "List steps, expected result and actual result."
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Blocks use or causes data loss
+        - Major problem with a workaround
+        - Minor issue
+        - Suggestion or general feedback
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, logs and additional details
+      description: Attach only information you are comfortable making public.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a similar report.
+          required: true
+        - label: I removed private information from this report and its attachments.
+          required: true
